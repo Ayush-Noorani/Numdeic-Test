@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<title>Numedic Test</title>
+</head>
+<body>
+<div id="container">
+	<div id="content">
+		<table id="main_table">
+	<tr>
+		<th>Invoice #</th>
+		<th>Created</th>
+		<th>Status</th>
+		<th>Customer</th>
+		<th>Due</th>
+		<th>Service</th>
+		<th>Worked</th>
+		<th>Rate</th>
+		<th>Total</th>
+	</tr>
+	<tr>
+		<td><a class="open-menu" href="#">INV-001</a></td>
+		<td>Aug 12, 2018</td>
+		<td>Outstanding</td>
+		<td>AC Accounting</td>
+		<td>Sept 12, 2018</td>
+		<td>UI Design</td>
+		<td>10 hrs</td>
+		<td>$100/hr</td>
+		<td>$1,000</td>
+	</tr>
+	<tr>
+		<td><a class="open-menu" href="#">INV-001</a></td>
+		<td>Aug 12, 2018</td>
+		<td>Outstanding</td>
+		<td>AC Accounting</td>
+		<td>Sept 12, 2018</td>
+		<td>UI Design</td>
+		<td>10 hrs</td>
+		<td>$100/hr</td>
+		<td>$1,000</td>
+	</tr>
+	<tr>
+		<td><a class="open-menu" href="#">INV-001</a></td>
+		<td>Aug 12, 2018</td>
+		<td>Outstanding</td>
+		<td>AC Accounting</td>
+		<td>Sept 12, 2018</td>
+		<td>UI Design</td>
+		<td>10 hrs</td>
+		<td>$100/hr</td>
+		<td>$1,000</td>
+	</tr>
+	<tr>
+		<td><a class="open-menu" href="#">INV-001</a></td>
+		<td>Aug 12, 2018</td>
+		<td>Outstanding</td>
+		<td>AC Accounting</td>
+		<td>Sept 12, 2018</td>
+		<td>UI Design</td>
+		<td>10 hrs</td>
+		<td>$100/hr</td>
+		<td>$1,000</td>
+	</tr>
+	<tr>
+		<td><a class="open-menu" href="#">INV-001</a></td>
+		<td>Aug 12, 2018</td>
+		<td>Outstanding</td>
+		<td>AC Accounting</td>
+		<td>Sept 12, 2018</td>
+		<td>UI Design</td>
+		<td>10 hrs</td>
+		<td>$100/hr</td>
+		<td>$1,000</td>
+	</tr>
+	<tr>
+		<td><a class="open-menu" href="#">INV-001</a></td>
+		<td>Aug 12, 2018</td>
+		<td>Outstanding</td>
+		<td>AC Accounting</td>
+		<td>Sept 12, 2018</td>
+		<td>UI Design</td>
+		<td>10 hrs</td>
+		<td>$100/hr</td>
+		<td>$1,000</td>
+	</tr>
+	<tr>
+		<td><a class="open-menu" href="#">INV-001</a></td>
+		<td>Aug 12, 2018</td>
+		<td>Outstanding</td>
+		<td>AC Accounting</td>
+		<td>Sept 12, 2018</td>
+		<td>UI Design</td>
+		<td>10 hrs</td>
+		<td>$100/hr</td>
+		<td>$1,000</td>
+	</tr>
+	<tr>
+		<td><a class="open-menu" href="#">INV-001</a></td>
+		<td>Aug 12, 2018</td>
+		<td>Outstanding</td>
+		<td>AC Accounting</td>
+		<td>Sept 12, 2018</td>
+		<td>UI Design</td>
+		<td>10 hrs</td>
+		<td>$100/hr</td>
+		<td>$1,000</td>
+	</tr>
+	<tr>
+		<td><a class="open-menu" href="#">INV-001</a></td>
+		<td>Aug 12, 2018</td>
+		<td>Outstanding</td>
+		<td>AC Accounting</td>
+		<td>Sept 12, 2018</td>
+		<td>UI Design</td>
+		<td>10 hrs</td>
+		<td>$100/hr</td>
+		<td>$1,000</td>
+	</tr>
+	<tr>
+		<td><a class="open-menu" href="#">INV-001</a></td>
+		<td>Aug 12, 2018</td>
+		<td>Outstanding</td>
+		<td>AC Accounting</td>
+		<td>Sept 12, 2018</td>
+		<td>UI Design</td>
+		<td>10 hrs</td>
+		<td>$100/hr</td>
+		<td>$1,000</td>
+	</tr>
+	<tr>
+		<td><a class="open-menu" href="#">INV-001</a></td>
+		<td>Aug 12, 2018</td>
+		<td>Outstanding</td>
+		<td>AC Accounting</td>
+		<td>Sept 12, 2018</td>
+		<td>UI Design</td>
+		<td>10 hrs</td>
+		<td>$100/hr</td>
+		<td>$1,000</td>
+	</tr>
+	<tr>
+		<td><a class="open-menu" href="#">INV-001</a></td>
+		<td>Aug 12, 2018</td>
+		<td>Outstanding</td>
+		<td>AC Accounting</td>
+		<td>Sept 12, 2018</td>
+		<td>UI Design</td>
+		<td>10 hrs</td>
+		<td>$100/hr</td>
+		<td>$1,000</td>
+	</tr>
+</table>
+	</div>
+</div>
+
+<div id="dynamicTable" class="side-menu">
+	<span class="close-menu">X</span>
+	<div id="initialDiv">
+	<h2>INV-0001</h2>
+	<p>AC Accounting</p>
+	<p>Outstanding</p>
+    </div>
+	<div id="buttonDIv">
+	<button id="recordPayment">Record Payment</button>
+    </div>
+	<div id="insideDiv">
+		<table id="insideTable">
+			<tr>
+				<th>ITEM</th>
+				<th>QTY</th>
+				<th>RATE</th>
+				<th>TOTAL</th>
+			</tr>
+			<tr>
+				<td>Database configuration</td>
+				<td>1.5</td>
+				<td>$50.00/hr</td>
+				<td>$75.00</td>
+			</tr>
+			<tr>
+				<td>Website Design</td>
+				<td>100</td>
+				<td>$50.00/hr</td>
+				<td>$5000.00</td>
+			</tr>
+			<tr>
+				<td>Plane Ticket</td>
+				<td>1</td>
+				<td>$350.00</td>
+				<td>$350.00</td>
+			</tr>
+			<tr>
+				<td>Website Testing</td>
+				<td>1</td>
+				<td>$45.00/hr</td>
+				<td>$45.00</td>
+			</tr>
+		</table>
+		<div id="secondDiv">
+			<div>
+				<ul class="firstList" style="list-style-type:none;">
+					<li>Total</li>
+					<li>Payments</li>
+					<li>Balance Due</li>
+				</ul>
+			</div>
+			<div>
+				<ul style="list-style-type:none;">
+					<li>$5470.00</li>
+					<li>$475.00</li>
+					<li>$5000.00</li>
+				</ul>
+			</div>
+			
+		</div>
+	</div>
+	<div>
+		<table id="finalTable">
+			<tr>
+				<td>CLIENT</td>
+				<td><a href="#">JM Contructios</a></td>
+			</tr>
+			<tr>
+				<td>PROJECT</td>
+				<td><a href="#">Web Re-design </a></td>
+			</tr>
+			<tr>
+				<td>INVOICE #</td>
+				<td>00001</td>
+			</tr>
+			<tr>
+				<td>CREATION</td>
+				<td>Aug 12, 2016</td>
+			</tr>
+			<tr>
+				<td>DUE</td>
+				<td>Sept 24, 2016</td>
+			</tr>
+			<tr>
+				<td>TERMS</td>
+				<td>Net 20</td>
+			</tr>
+		</table>
+	</div>
+	
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$(".close-menu").click(function(){
+			$(".side-menu").hide();
+		});
+		$(".open-menu").click(function(){
+			$(".side-menu").show();
+		});
+	});
+</script>
+
+</body>
+</html>
